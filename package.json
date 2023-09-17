@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "bitfinex-assessment",
+  "packageManager": "npm@10.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "server": "turbo run server",
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{js,md}\""
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "turbo": "latest"
+  },
+  "engines": {
+    "npm": ">=10.1.0",
+    "node": ">=20.6.1"
+  }
+}
