@@ -1,0 +1,9 @@
+const STATUS_OK = 1
+const STATUS_ERROR = 2;
+const STATUS_INVALID_REQUEST = 3;
+
+module.exports = {
+    STATUS_OK,
+    STATUS_ERROR,
+    STATUS_INVALID_REQUEST
+}

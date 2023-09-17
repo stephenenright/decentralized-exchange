@@ -1,0 +1,19 @@
+{
+  "name": "bfx-exchange-common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "server": "nodemon src/server.js",
+    "test": "jest ./tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@datastructures-js/priority-queue": "^6.3.0",
+    "pino": "^8.15.1"
+  }
+}

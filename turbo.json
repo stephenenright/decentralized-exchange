@@ -3,6 +3,12 @@
     "build": {
       "dependsOn": ["^build"]
     },
+    "test": {
+      "dependsOn": ["^build"]
+    },
+    "start": {
+      "dependsOn": ["^build"]
+    },
     "server": {
       "dependsOn": ["^build"]
     },

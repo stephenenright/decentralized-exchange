@@ -1,0 +1,22 @@
+{
+  "name": "bfx-id-generator-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Stephen Enright",
+  "license": "ISC",
+  "dependencies": {
+    "bfx-exchange-common": "*",
+    "grenache-grape": "^0.9.12",
+    "grenache-nodejs-http": "^0.7.13",
+    "grenache-nodejs-link": "^1.0.0",
+    "pino": "^8.15.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
